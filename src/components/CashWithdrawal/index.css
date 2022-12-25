@@ -1,0 +1,116 @@
+/* Write your CSS here
+Colors
+Hex: #150b3e
+Hex: #c7d2fe
+Hex: #7c3aed
+Hex: #d4d2db
+Hex: #585076
+Hex: #382f5a
+Hex: #c4c4c4
+*/
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 30px;
+  min-height: 100vh;
+}
+.cash-container {
+  border-radius: 12px;
+  background-color: #382f5a;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-container {
+    width: 50%;
+  }
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.s-letter {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  color: #7c3aed;
+  border-radius: 40px;
+  padding: 30px;
+  margin-right: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.heading {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  color: #585076;
+  font-size: 24px;
+  font-weight: 600;
+}
+.amount {
+  color: #d4d2db;
+  font-weight: 800;
+  margin-left: 20px;
+}
+.in-rupees {
+  display: flex;
+  justify-content: flex-end;
+}
+.in-rupee-description {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 600;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: start;
+}
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+  .in-rupee-description {
+    font-size: 24px;
+  }
+  .amount {
+    font-size: 32px;
+    padding-right: 20px;
+  }
+  .description {
+    font-size: 28px;
+  }
+  .withdraw {
+    font-size: 32px;
+  }
+}
